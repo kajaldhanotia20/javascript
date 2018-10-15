@@ -527,14 +527,6 @@ Other Style Guides
     ```javascript
     const arr = [1, 2, 3, 4];
 
-    // bad
-    const first = arr[0];
-    const second = arr[1];
-
-    // good
-    const [first, second] = arr;
-    ```
-
   <a name="destructuring--object-over-array"></a><a name="5.3"></a>
   - [5.3](#destructuring--object-over-array) Use object destructuring for multiple return values, not array destructuring.
 
@@ -903,27 +895,7 @@ Other Style Guides
       // ...
     }
 
-    // good
-    function foo(
-      bar,
-      baz,
-      quux,
-    ) {
-      // ...
-    }
-
-    // bad
-    console.log(foo,
-      bar,
-      baz);
-
-    // good
-    console.log(
-      foo,
-      bar,
-      baz,
-    );
-    ```
+   
 
 **[⬆ back to top](#table-of-contents)**
 
